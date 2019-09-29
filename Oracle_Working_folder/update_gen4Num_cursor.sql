@@ -1,6 +1,5 @@
--- ver 0.1
-
--- Обновляет поле gen4Num_port в таблице extern_file
+/*ver 0.1
+Обновляет поле gen4Num_port в таблице extern_file*/
 
 SET SERVEROUTPUT ON 
 
