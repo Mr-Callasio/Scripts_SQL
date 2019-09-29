@@ -37,7 +37,7 @@ select
                 ) 
                
         
-			"gen4Num_count",  
+			"gen4Num_port_ord",  
 			id, gen4Num_port,content
 	
 			from  extern_file nfs
@@ -47,7 +47,7 @@ select
 			 
 )
 
-select 	id, 		"gen4Num_count", 		gen4Num_port, content
+select 	id, 		"gen4Num_port_ord", 		gen4Num_port, content
 into 	fetched_id, fetched_gen4Num_port, 	cur_gen4Num_port, content
 from 	my_table;
 
