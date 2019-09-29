@@ -6,15 +6,15 @@ SET SERVEROUTPUT ON
 
 declare
 		
-		start_date				date := TO_DATE('10.02.2015 00:00', 'dd.mm.yyyy hh24:mi');
-		end_date				date := TO_DATE('10.05.2015 00:00', 'dd.mm.yyyy hh24:mi');
-		fetched_id				varchar2(256) :='';
-		fetched_gen4Num_port	varchar2(256) :='';
-		content					clob :='';
-		direction				varchar2(256) :='';
-		cur_gen4Num_port		varchar2(20) :='';
-		Update_count			number(20,0):=0;
-		Update_count_fr_selct	number(20,0):=0;
+		start_date					date := TO_DATE('10.02.2015 00:00', 'dd.mm.yyyy hh24:mi');
+		end_date					date := TO_DATE('10.05.2015 00:00', 'dd.mm.yyyy hh24:mi');
+		fetched_id					varchar2(256) :='';
+		fetched_gen4Num_port		varchar2(256) :='';
+		content						clob :='';
+		direction					varchar2(256) :='';
+		cur_gen4Num_port			varchar2(20) :='';
+		Update_count				number(20,0):=0;
+		Update_count_fr_selct		number(20,0):=0;
 		
 		
 
